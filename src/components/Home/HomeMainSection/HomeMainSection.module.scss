@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin-bottom: -150px;
+  h1 {
+    line-height: 50px;
+    margin-bottom: 10px;
+  }
+
+}
+
+.img {
+  height: 803px;
+  position: relative;
+  top: -150px;
+  left: -420px;
+  display: block;
+}
+
+.wrapper {
+  min-width: 600px;
+  position: relative;
+  top: 150px;
+  left: -210px;
+  text-align: center;
+
+}
+
+.boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px;
+
+  :first-child {
+    margin-right: 40px;
+  }
+}
+
+.singleBox {
+  width: 250px;
+  height: 110px;
+  border: 1px solid black;
+  font-size: 30px;
+  background: inherit;
+  cursor: pointer;
+
+}
