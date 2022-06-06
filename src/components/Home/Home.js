@@ -4,6 +4,7 @@ import style from './Home.module.scss';
 import HomeMainSection from "./HomeMainSection/HomeMainSection";
 import Home4Steps from "./Home4Steps/Home4Steps";
 import HomeThreeColumn from "./HomeThreeColumn/HomeThreeColumn";
+import HomeAboutUs from "./HomeAboutUs/HomeAboutUs";
 
 const Home = () => {
 
@@ -13,6 +14,7 @@ const Home = () => {
             <HomeMainSection />
             <HomeThreeColumn/>
             <Home4Steps/>
+            <HomeAboutUs/>
 
         </section>
     )

@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 80px;
+}
+.background {
+  height: 605px;
+  width: 812px;
+}
+.about {
+  text-align: center;
+  background: lightgray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 120px;
+}
+.signature {
+  width: 200px;
+  height: 148px;
+  position: relative;
+  left: 110px;
+  margin-top: 10px;
+}
+.text {
+  font-size: 22px;
+  line-height: 35px;
+  position: center;
+}
+.decoration {
+  width: 253px;
+  height: 33px;
+ margin: 26px 0 20px 0;
+}
