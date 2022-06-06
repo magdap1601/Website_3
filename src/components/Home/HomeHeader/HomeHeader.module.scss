@@ -1,0 +1,26 @@
+@import "src/scss/settings/colors";
+
+.container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.list {
+  margin-right: 145px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  list-style: none;
+  :hover {
+    border: 0.75px solid $color-border;
+  }
+
+}
+
+.link {
+  padding: 11px;
+  border: 1px solid transparent;
+
+}

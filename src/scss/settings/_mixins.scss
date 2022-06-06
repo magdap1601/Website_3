@@ -1,0 +1,34 @@
+@mixin boxStyleRegister {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@mixin boxStyle {
+    margin-top: 30px;
+    width: 384px;
+    background: #F0F1F1 0 0 no-repeat padding-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px 65px;
+}
+@mixin inputForm {
+    border: none;
+    border-bottom: 1px solid grey;
+    line-height: 40px;
+    background: inherit;
+    padding-bottom: -5px;
+}
+@mixin boxButtonsStyle {
+    width: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+@mixin singleButton {
+    padding: 13px 15px 13px 16px;
+    border: none;
+    background: inherit;
+}

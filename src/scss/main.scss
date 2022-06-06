@@ -1,0 +1,45 @@
+@import "./settings/colors";
+@import "./settings/fonts";
+@import "../reset.css";
+
+body {
+  font-family: $font-base;
+
+}
+
+.list {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  padding-right: 150px;
+  padding-top: 46px;
+  margin-bottom: 16px;
+
+  :first-of-type {
+    margin-right: -10px;
+    margin-left: 20px;
+  }
+
+  li {
+    text-decoration: none;
+  }
+}
+
+h1 {
+  font-size: 30px;
+}
+
+.link {
+  text-decoration: none;
+  color: #3C3C3C;
+  padding: 10px;
+  border: 1px solid transparent;
+
+  &:hover {
+    cursor: pointer;
+    border: 0.75px solid orange;
+  }
+  a {
+    text-decoration: none;
+  }
+}

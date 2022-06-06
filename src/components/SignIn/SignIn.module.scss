@@ -1,0 +1,44 @@
+@import "../../scss/settings/mixins";
+
+.container {
+  @include boxStyleRegister;
+  padding-top: 100px;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.box {
+  @include boxStyle;
+
+  :nth-child(3) {
+    margin-top: 30px;
+  }
+
+}
+
+.singleInput {
+  @include inputForm;
+
+}
+
+.boxButtons {
+  @include boxButtonsStyle;
+}
+
+.singleButton {
+  @include singleButton;
+
+  &:active {
+    border: 1px solid black;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.label {
+  margin-top: 5px;
+}
