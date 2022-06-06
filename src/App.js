@@ -34,7 +34,6 @@ function App() {
                 <Route path="/">
                     <Home />
                 </Route>
-
             </Switch>
         </Router>
     );
