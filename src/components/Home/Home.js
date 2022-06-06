@@ -5,6 +5,7 @@ import HomeMainSection from "./HomeMainSection/HomeMainSection";
 import Home4Steps from "./Home4Steps/Home4Steps";
 import HomeThreeColumn from "./HomeThreeColumn/HomeThreeColumn";
 import HomeAboutUs from "./HomeAboutUs/HomeAboutUs";
+import HomeWhoWeHelp from "./HomeWhoWeHelp/HomeWhoWeHelp";
 
 const Home = () => {
 
@@ -15,6 +16,7 @@ const Home = () => {
             <HomeThreeColumn/>
             <Home4Steps/>
             <HomeAboutUs/>
+            <HomeWhoWeHelp/>
 
         </section>
     )
