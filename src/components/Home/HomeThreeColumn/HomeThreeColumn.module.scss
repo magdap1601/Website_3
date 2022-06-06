@@ -1,0 +1,44 @@
+@import "src/scss/settings/colors";
+
+.statistics {
+  background: $color-statistics;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-evenly;
+  height: 224px;
+  align-items: center;
+
+  h1 {
+    font-size: 52px;
+    color: $color-numberColumn;
+    font-weight: lighter;
+    margin-bottom: 15px;
+
+  }
+}
+
+.singleElement {
+  padding: 10px 0;
+  width: 334px;
+  font-weight: lighter;
+
+
+}
+
+.text {
+  font-size: 15px;
+  margin-bottom: 10px;
+  text-align: center;
+  position: relative;
+  left: 15px;
+}
+
+.text2 {
+  font-size: 12px;
+  width: 300px;
+  position: relative;
+  left: 18px;
+  line-height: 19px;
+
+}
